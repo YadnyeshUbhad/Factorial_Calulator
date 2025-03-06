@@ -1,60 +1,65 @@
-# Factorial Calculator 
+# Factorial Calculator
 
-This project is a simple web application showcasing CSS art designs and a factorial calculator. 
-It demonstrates the capabilities of CSS for visual designs and uses JavaScript to calculate factorials iteratively and recursively.
+## 📌 Overview
+This **Factorial Calculator** is a simple yet efficient application that computes the factorial of a given number using both **iterative** and **recursive** methods. The calculator ensures **input validation**, **clear output display**, and can be extended with backend support using **Node.js/Express.js** or other technologies.
 
-**Features
+## 🚀 Features
+- **Iterative & Recursive Calculation**: Computes factorial using both methods.
+- **User Input Validation**: Ensures only valid positive integers are accepted.
+- **Dynamic Output Display**: Presents results clearly and interactively.
+- **Responsive UI**: Designed for smooth user experience across devices.
+- **Expandable Backend Support** (Optional): Can integrate with Node.js/Express.js for enhanced functionality.
 
-1. Factorial Calculator:
-   - Input a positive integer and calculate its factorial using:
-     - Iterative Method
-     - Recursive Method
-   - Includes input validation to ensure only valid positive integers are processed.
+## 🛠️ Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend (Optional)**: Node.js, Express.js
 
-2. Responsive Design:
-   - Fully responsive layout for desktop and mobile devices.
+## 🎯 Usage
+### 1️⃣ **Running Locally**
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/YadnyeshUbhad/factorial-calculator.git
+   cd factorial-calculator
+   ```
+2. Open `index.html` in a browser.
 
-**Technologies Used
+### 2️⃣ **Running with Node.js (Optional)**
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the server:
+   ```sh
+   node server.js
+   ```
+3. Open `http://localhost:3000` in your browser.
 
-- HTML: Structuring the webpage.
-- CSS: Styling and layout.
-- JavaScript: Factorial calculation logic and dynamic updates.
+## 📷 Screenshots
+| Iterative Calculation | Recursive Calculation |
+|----------------------|----------------------|
+| ![Iterative]![image](https://github.com/user-attachments/assets/60fa4e3f-77b6-4f53-9bbd-614c829d87f0) | ![Recursive]![image](https://github.com/user-attachments/assets/a8dcff30-6053-4569-866c-f957d7f0796f) |
 
-**Getting Started
+## 📂 Project Structure
+```
+factorial-calculator/
+│── index.html         # Main UI file
+│── styles.css         # Stylesheet
+│── script.js         # JavaScript logic for calculations
+│── server.js         # (Optional) Node.js backend
+│── README.md         # Documentation
+└── screenshots/       # Screenshots of the app
+```
 
-Prerequisites
+## 🏆 Contributing
+Feel free to fork this repository, open issues, or submit pull requests if you'd like to improve the project!
 
-To run this project locally, you need:
-- A modern web browser (e.g., Chrome, Firefox).
-- Basic understanding of HTML, CSS, and JavaScript (optional).
+## 📜 License
+This project is licensed under the **MIT License**.
 
-Installation
+## 💡 Author
+Developed by **[Yadnyesh Ubhad]((https://github.com/YadnyeshUbhad))**. 
+Connect with me on **[LinkedIn](www.linkedin.com/in/yadnyesh-ubhad-25210a344)**.
 
-1. Download the project files as a ZIP archive.
-2. Extract the ZIP file to a directory of your choice.
-3. Open the `index.html` file in your browser to view the application.
+---
+Enjoy coding! 🚀
 
-**Usage
-
-Factorial Calculator:
-   - Enter a positive integer in the input field.
-   - Click "Calculate Iteratively" or "Calculate Recursively" to see the results.
-   - Invalid inputs will display an error message.
-
-*File Structure
-
-project-directory/
-├── index.html      # Main HTML file
-├── styles.css      # CSS file for styling
-├── script.js       # JavaScript file for factorial logic
-└── README.md       # Project documentation
-
-
-*Contributing
-
-Feel free to contribute to this project by submitting issues or pull requests. Any feedback is appreciated!
-
-*Author
-Yadnyesh Ubhad
-
-Thank you for checking out this project! 😊
